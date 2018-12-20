@@ -6,18 +6,13 @@ const Tasks = props => (
       <tr>
         <th>Description</th>
         <th></th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
       {
         props.tasks.map(task => {
-          return(
-            <Task
-              key={task.id}
-              task={task}
-              deleteTask={props.deleteTask}
-            />
-          )
+          return <Task key={task.id} task={task} {...props} />
         })
       }
     </tbody>
