@@ -1,0 +1,2 @@
+server: rails s -p 5000
+client: cd next && yarn dev
