@@ -1,2 +1,2 @@
-server: cd server && rails s -p 5000
-client: cd client && yarn dev
+rails: cd rails && rails s -p 5000
+next: cd next && yarn dev

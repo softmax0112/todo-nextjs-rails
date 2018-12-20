@@ -5,28 +5,28 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-server/.bundle
+rails/.bundle
 
 # Ignore the default SQLite database.
-server/db/*.sqlite3
-server/db/*.sqlite3-journal
+rails/db/*.sqlite3
+rails/db/*.sqlite3-journal
 
 # Ignore all logfiles and tempfiles.
-server/log/*
-server/tmp/*
-!server/log/.keep
-!server/tmp/.keep
+rails/log/*
+rails/tmp/*
+!rails/log/.keep
+!rails/tmp/.keep
 
 # Ignore uploaded files in development
-server/storage/*
-!server/storage/.keep
+rails/storage/*
+!rails/storage/.keep
 
-server/.byebug_history
+rails/.byebug_history
 
 # Ignore master key for decrypting credentials and more.
-server/config/master.key
+rails/config/master.key
 
 # Ignore next depenedcies, builds and env vars
-/client/node_modules
-/client/.next
-/client/.env
+/next/node_modules
+/next/.next
+/next/.env

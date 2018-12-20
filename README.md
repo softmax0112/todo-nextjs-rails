@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Todo App that uses Next.js React app on frontend and Rails 5.2 API as backend.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+* `git clone`
+* `cd todo_next_rails`
+* `gem install foreman`
+* `cd rails && rails db:migrate`
+* `cd .. && foreman start -f Procfile.dev`
 
-* System dependencies
+## App boot
 
-* Configuration
+From root:
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`foreman start -f Procfile.dev`
